@@ -1,0 +1,80 @@
+{
+  "output_file": "settings.json",
+  "command": {
+    "type": "textbox",
+    "value": "!answer",
+    "label": "Command",
+    "tooltip": "",
+    "group": "Command"
+  },
+  "string1": {
+    "type": "textbox",
+    "value": "Anfangstext 1",
+    "label": "Text 1",
+    "tooltip": "",
+    "group": "Anfangswerte"
+  },
+  "string2": {
+    "type": "textbox",
+    "value": "Anfangstext 2",
+    "label": "Text 2",
+    "tooltip": "",
+    "group": "Anfangswerte"
+  },
+  "string3": {
+    "type": "textbox",
+    "value": "Anfangstext 3",
+    "label": "Text 3",
+    "tooltip": "",
+    "group": "Anfangswerte"
+  },
+   "btnStart": {
+    "type": "button",
+    "label": "Platzhalter",
+    "tooltip": "Ich halte wirklich nur den Platz",
+    "function": "",
+    "group": "Anfangswerte"
+  },
+  "userCooldown": {
+    "type": "numberbox",
+    "label": "Cooldown (seconds)",
+    "value": 30,
+    "tooltip": "User-cooldown in seconds.",
+    "group": "Cooldown"
+  },
+  "timeToAnswer": {
+    "type": "numberbox",
+    "label": "Time to answer",
+    "value": 30,
+    "tooltip": "Time until the bot posts the answer",
+    "group": "Cooldown"
+  },
+  "reward": {
+    "type": "numberbox",
+    "label": "Reward for user",
+    "value": 500,
+    "tooltip": "Reward the user gets for the right answer",
+    "group": "Cooldown"
+  },
+  "answer1": {
+    "type": "textbox",
+    "value": "Beispielantwort 1",
+    "label": "Answer 1",
+    "tooltip": "Antwort für die passenden Anfangstext",
+    "group": "Answers"
+  },
+  "answer2": {
+    "type": "textbox",
+    "value": "Beispielantwort 2",
+    "label": "Answer 2",
+    "tooltip": "Antwort für die passenden Anfangstext",
+    "group": "Answers"
+  },
+  "answer3": {
+    "type": "textbox",
+    "value": "Beispielantwort 3",
+    "label": "Answer 3",
+    "tooltip": "Antwort für die passenden Anfangstext",
+    "group": "Answers"
+  }
+}
